@@ -1,0 +1,1 @@
+docker run -it -v C:/Users/Antoniocs/Projects/Personal/node.js/udemy-the-complete-nodejs-developer-course-2/src/:/application -p 3000:3000 --network udemythecompletenodejsdevelopercourse2_default node:8.1.4 /bin/bash

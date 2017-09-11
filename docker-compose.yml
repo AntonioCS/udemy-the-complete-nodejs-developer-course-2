@@ -1,0 +1,24 @@
+version: "3.1"
+services:
+    mongodb:
+      image: mongo
+      container_name: udemy-the-complete-nodejs-developer-course-2-mongodb
+#      working_dir: /application
+#      volumes:
+#        - ./src/:/application
+#        - ./mongo-data/:/data/db
+#      environment:
+#        - MONGO_INITDB_DATABASE=
+#        - MONGO_INITDB_ROOT_USERNAME=root
+#        - MONGO_INITDB_ROOT_PASSWORD=root        
+      ports:       
+       - "27051:27017"       
+
+#    nodejs:
+#      image: node:8.1.4
+#      container_name: udemy-the-complete-nodejs-developer-course-2-nodejs
+#      working_dir: /application 
+#      volumes:
+#          - ./src/:/application
+#      ports:
+#       - "3000:3000"
